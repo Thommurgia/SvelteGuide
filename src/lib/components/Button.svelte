@@ -10,11 +10,11 @@
 
     type $$Props = ButtonComponentElements[Element] & {
         element: Element
-        variant?: "solid" | "outlined" | "danger"
+        variant?: "solid" | "outline" | "danger"
         className?: string
     }
     export let element: Element
-    export let variant: "solid" | "outlined" | "danger" = "solid"
+    export let variant: "solid" | "outline" | "danger" = "solid"
     export let className: string = ""
 </script>
 
