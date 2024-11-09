@@ -8,11 +8,11 @@ const config = {
 			prependData: '@use "src/styles/functions"; @use "@unsass/breakpoint";'
 		}
 	}),
-
+	"enable-ts-plugin": true,
 	kit: {
 		adapter: adapter(),
 		alias: {
-			"$components": "src/lib/components",
+			"$components": "src/lib",
 			"$assets": "src/assets"
 		}
 	}
